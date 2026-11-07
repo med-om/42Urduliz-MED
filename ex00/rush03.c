@@ -6,6 +6,12 @@ void rush(int x, int y) {
     int j = 1;
     int v = 1;
 
+    // Handle Error
+    if (x <= 0 || y <= 0) {
+        char error [] = "Error: necesitas agregar un número mayor que 1\n";
+        write(1, &error, 48);
+    }
+
     while(i <= y){
 
         int p = 1;
