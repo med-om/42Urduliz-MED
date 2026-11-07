@@ -2,6 +2,7 @@
 #include "rush03.c"
 
 int main() {
-    rush(4, 4);
-    return 0; // Es una buena práctica que el main devuelva 0
+    rush(5, 4);
+
+    return (0); 
 }
